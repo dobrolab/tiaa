@@ -1,0 +1,46 @@
+$c1: #FDAE00
+$c2: #AE0F13
+
+$f0: "Raleway", sans-serif
+$f1: "Montserrat Subrayada", sans-serif
+
+*
+	transition: all .3s ease
+
+html
+	scroll-behavior: smooth !important
+
+body
+	background-color: #141414
+	color: #fff
+	font-size: 20px
+	font-family: $f0
+	font-weight: 400
+
+.section
+	padding-top: 100px
+	padding-bottom: 100px
+
+.font_akcent
+	font-family: $f1
+	font-weight: 700
+	font-style: normal
+
+.lights
+	height: 20px
+	background: yellow url('/img/divider.jpg') repeat-x scroll center center
+
+h2
+	font-family: $f1
+	color: $c1
+	font-size: 40px
+	margin-bottom: 60px
+
+p
+	line-height: 170%
+
+@import _topbar
+@import _header
+@import _offer
+@import _slider
+@import _about

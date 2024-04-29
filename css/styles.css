@@ -1,0 +1,152 @@
+* {
+  transition: all 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  background-color: #141414;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.font_akcent {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lights {
+  height: 20px;
+  background: yellow url("/img/divider.jpg") repeat-x scroll center center;
+}
+
+h2 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: #FDAE00;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+p {
+  line-height: 170%;
+}
+
+/* TOPBAR */
+#topbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#topbar a {
+  color: #fff;
+  text-decoration: none;
+  vertical-align: bottom;
+  display: inline-block;
+  align-self: center;
+  padding-left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+#topbar .top_phone {
+  line-height: 30px;
+  align-self: center;
+  padding-top: 8px;
+}
+#topbar .top_phone:hover {
+  color: #FDAE00;
+}
+#topbar .top_whatsapp {
+  margin-left: auto;
+}
+#topbar .top_whatsapp img {
+  width: 30px;
+  height: 30px;
+}
+
+header {
+  height: 340px;
+  text-align: center;
+  background: transparent url("/img/header.jpg") no-repeat scroll center center/cover;
+  display: flex;
+  align-items: end;
+}
+header .main_menu {
+  margin-bottom: -20px;
+  background-color: #AE0F13;
+  border: 2px solid #FDAE00;
+}
+header .main_menu a {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Montserrat Subrayada", sans-serif;
+  text-decoration: none;
+}
+header .main_menu a:hover {
+  color: #FDAE00;
+}
+
+/* offer */
+#offer {
+  background: transparent url("/img/offer.jpg") no-repeat scroll center center/cover;
+}
+#offer .offer_text {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 56px;
+  color: #FDAE00;
+}
+
+/* offer ADAPTIVE */
+/* offer: end */
+/* slider */
+#slider {
+  text-align: center;
+}
+#slider .slider_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#slider .slider_item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -104px;
+  margin-top: -104px;
+  width: 207px;
+  height: 207px;
+  background: transparent url("/img/play_button.svg") no-repeat scroll center center/cover;
+}
+
+/* slider ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* slider: end */
+/* about */
+#about {
+  background: transparent url("/img/about_bg.jpg") no-repeat scroll center center/cover;
+}
+
+/* about ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* about: end *//*# sourceMappingURL=styles.css.map */
