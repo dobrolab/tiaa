@@ -27,7 +27,7 @@ body {
 
 .lights {
   height: 20px;
-  background: yellow url("/img/divider.jpg") repeat-x scroll center center;
+  background: yellow url("img/divider.jpg") repeat-x scroll center center;
 }
 
 h2 {
@@ -75,7 +75,7 @@ p {
 header {
   height: 340px;
   text-align: center;
-  background: transparent url("/img/header.jpg") no-repeat scroll center center/cover;
+  background: transparent url("img/header.jpg") no-repeat scroll center center/cover;
   display: flex;
   align-items: end;
 }
@@ -96,7 +96,7 @@ header .main_menu a:hover {
 
 /* offer */
 #offer {
-  background: transparent url("/img/offer.jpg") no-repeat scroll center center/cover;
+  background: transparent url("img/offer.jpg") no-repeat scroll center center/cover;
 }
 #offer .offer_text {
   font-family: "Montserrat Subrayada", sans-serif;
@@ -126,7 +126,7 @@ header .main_menu a:hover {
   margin-top: -104px;
   width: 207px;
   height: 207px;
-  background: transparent url("/img/play_button.svg") no-repeat scroll center center/cover;
+  background: transparent url("img/play_button.svg") no-repeat scroll center center/cover;
 }
 
 /* slider ADAPTIVE */
@@ -139,7 +139,7 @@ header .main_menu a:hover {
 /* slider: end */
 /* about */
 #about {
-  background: transparent url("/img/about_bg.jpg") no-repeat scroll center center/cover;
+  background: transparent url("img/about_bg.jpg") no-repeat scroll center center/cover;
 }
 
 /* about ADAPTIVE */
