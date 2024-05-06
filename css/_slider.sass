@@ -9,11 +9,15 @@
 		align-items: center
 		justify-content: center
 		position: relative
+		&:hover
+			&::after
+				opacity: 0.8
 
 		&::after
 			content: ""
 			display: block
 			position: absolute
+			cursor: pointer
 			top: 50%
 			left: 50%
 			margin-left: -104px
