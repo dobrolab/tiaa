@@ -176,4 +176,60 @@ header .main_menu a:hover {
 /* // MD */
 /* // SM */
 /* // XS */
-/* benefits: end *//*# sourceMappingURL=styles.css.map */
+/* benefits: end */
+/* services */
+#services {
+  background: transparent url("../img/services_bg.jpg") no-repeat scroll center center/cover;
+}
+#services .service_item {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* services ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* services: end */
+/* team */
+#team {
+  background: transparent url("../img/benefits_bg.jpg") repeat-y scroll center center/contain;
+}
+
+/* team ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* team: end */
+/* history */
+#history {
+  background: transparent url("../img/history_bg.jpg") no-repeat scroll center center/cover;
+}
+
+/* history ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* history: end */
+/* clients */
+#clients {
+  background: transparent url("../img/clients_bg.jpg") no-repeat scroll center center/cover;
+}
+
+/* clients ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* clients: end *//*# sourceMappingURL=styles.css.map */
