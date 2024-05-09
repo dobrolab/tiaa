@@ -27,7 +27,7 @@ body {
 
 .lights {
   height: 20px;
-  background: yellow url("../img/divider.jpg") repeat-x scroll center center;
+  background: #AE0F13 url("../img/divider.jpg") repeat-x scroll center center;
 }
 
 h2 {
