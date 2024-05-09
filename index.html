@@ -11,6 +11,7 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/fancybox.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 
 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -399,13 +400,249 @@
 		<div class="container">
 			<h2 class="text-center">Our clients</h2>
 
+			<!-- Swiper -->
+			<div class="swiper partnerSwiper">
+				<div class="swiper-wrapper">
+
+					<div class="swiper-slide">
+						<div class="partner_item">
+							<img src="img/logo_01.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="partner_item">
+							<img src="img/logo_02.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="partner_item">
+							<img src="img/logo_03.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="partner_item">
+							<img src="img/logo_04.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="partner_item">
+							<img src="img/logo_05.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="partner_item">
+							<img src="img/logo_06.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="partner_item">
+							<img src="img/logo_07.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="partner_item">
+							<img src="img/logo_08.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="partner_item">
+							<img src="img/logo_09.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="partner_item">
+							<img src="img/logo_10.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="partner_item">
+							<img src="img/logo_11.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="partner_item">
+							<img src="img/logo_12.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+				</div>
+				<div class="swiper-review-next swiper-button-next"></div>
+				<div class="swiper-review-prev swiper-button-prev"></div>
+				<!-- <div class="swiper-review-pagination swiper-pagination"></div> -->
+			</div>
+
+			<!-- Initialize Swiper -->
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+					var swiper = new Swiper(".partnerSwiper", {
+						slidesPerView: 6,
+						spaceBetween: 20,
+						autoplay: {
+							delay: 2500,
+							disableOnInteraction: true,
+						},
+						loop: true,
+						freeMode: true,
+						navigation: {
+							nextEl: ".swiper-partner-next",
+							prevEl: ".swiper-partner-prev",
+						},
+						pagination: {
+							el: ".swiper-partner-pagination",
+							clickable: true,
+						},
+						breakpoints: {
+							// when window width is >= 360px
+							320: {
+								slidesPerView: 2,
+								spaceBetween: 20,
+							},
+							1024: {
+								slidesPerView: 6,
+								spaceBetween: 20,
+							},
+						},
+					});
+				});
+			</script>
 
 		</div>
 	</section> <!-- / clients -->
 	<div class="lights"></div>
+
+	<!-- contacts -->
+	<section id="contacts" class="section">
+		<div class="container">
+			<div class="row g-4">
+
+				<div class="col-lg-6">
+					<h2>Contact with Us</h2>
+					<div class="row g-4">
+						<div class="col-md-6">
+							<p>
+								<strong>Netherlands<br></strong>
+								Kristoff Estefano<br>
+								<a href="tel:+31619725873">+31 619 725 873</a>
+							</p>
+
+							<p>
+								<strong>Switzerland</strong><br>
+								Ide Guerra<br>
+								<a href="tel:+41768030986">+41 76 803 09 86</a>
+							</p>
+
+							<p>
+								<strong>Ukraine</strong><br>
+								Sergeii Petrov<br>
+								<a href="tel:+38073 002586">+380 73 100 2586</a>
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p>
+								<strong>México</strong><br>
+								Raul Gustavo Esqueda<br>
+								<a href="tel:+525615657032">+52 56 1565 7032</a>
+							</p>
+
+							<p>
+								<strong>UAE</strong><br>
+								Anastasiia Chaikina<br>
+								<a href="tel:+971585178400">+971 58 517 8400</a>
+							</p>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-lg-4 offset-lg-1 align-self-center">
+					<div class="row g-4 text-center">
+						<div class="col-6"><a href=""><img src="img/ci-wa.svg" alt=""></a></div>
+						<div class="col-6"><a href=""><img src="img/ci-ig.svg" alt=""></a></div>
+						<div class="col-6"><a href=""><img src="img/ci-fb.svg" alt=""></a></div>
+						<div class="col-6"><a href=""><img src="img/ci-tw.svg" alt=""></a></div>
+						<div class="col-6"><a href=""><img src="img/ci-li.svg" alt=""></a></div>
+						<div class="col-6"><a href=""><img src="img/ci-tt.svg" alt=""></a></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section> <!-- / contacts -->
+	<div class="lights"></div>
+
+	<!-- footer -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row g-4 mb-5">
+
+				<div class="col-lg-8">
+					<div class="row" id="footer_addresses">
+						<div class="col-lg-4">
+							<strong>Netherland</strong><br>
+							Main Office<br>
+							Rotterdame, 49000<br>
+							<a href="mailto:netherland@advanced.team">netherland@theiaagency.com</a>
+						</div>
+						<div class="col-lg-4">
+							<strong>Mexico</strong><br>
+							Main Office<br>
+							Zihuatanejo, 49000<br>
+							<a href="mailto:mexico@theiaagency.com">mexico@theiaagency.com</a>
+						</div>
+						<div class="col-lg-4">
+							<strong>Germany</strong><br>
+							Main Office<br>
+							Frankfurt, 49000<br>
+							<a href="mailto:germany@theiaagency.com">germany@theiaagency.com</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="row g-4">
+						<div class="col-lg-6 offset-lg-1">
+							<strong>Casting inquiries</strong><br>
+							<a href="mailto:casting@tiaagency.com">casting@tiaagency.com</a><br>
+							<br>
+							be happy
+						</div>
+						<div class="col-lg-4 offset-lg-1 text-lg-end">
+							<img src="img/footer_logo.png" alt="" class="img-fluid">
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row" id="footer_copyright">
+				<div class="col-lg-5">
+					2024 © The International Artist Agency
+				</div>
+				<div class="col-lg-2 text-lg-center">
+					<a href="">Privacy politics</a>
+				</div>
+				<div class="col-lg-5 text-lg-end">
+					assembled in DOBROLAB
+				</div>
+			</div>
+
+		</div>
+	</footer> <!-- / footer -->
 	
 
-
+	<script src="js/swiper-bundle.min.js"></script>
 	<script src="js/jarallax.min.js"></script>
 	<script src="js/jarallax-video.min.js"></script>
 

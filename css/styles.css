@@ -232,4 +232,56 @@ header .main_menu a:hover {
 /* // MD */
 /* // SM */
 /* // XS */
-/* clients: end *//*# sourceMappingURL=styles.css.map */
+/* clients: end */
+/* contacts */
+#contacts {
+  background: transparent url("../img/contacts_bg.jpg") no-repeat scroll center center/cover;
+}
+#contacts strong {
+  color: #FDAE00;
+}
+#contacts a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+
+/* contacts ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* contacts: end */
+/* footer */
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #060F0A;
+}
+footer a {
+  color: #FDAE00;
+  text-decoration: none;
+  font-size: 16px;
+}
+footer strong {
+  color: #FDAE00;
+}
+footer #footer_copyright {
+  margin-top: 60px;
+}
+
+/* footer ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+@media (max-width: 1199px) {
+  footer a {
+    font-size: 15px;
+  }
+}
+/* // MD */
+/* // SM */
+/* // XS */
+/* footer: end *//*# sourceMappingURL=styles.css.map */
