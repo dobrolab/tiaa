@@ -1,0 +1,84 @@
+
+/* FLOAT */
+.fl-fl 
+	background: $c2
+	border: 2px solid $c1
+	text-transform: uppercase 
+	padding: 4px 
+	width: 190px 
+	position: fixed 
+	right: -140px 
+	z-index: 1000 
+	font-family: $f1
+	font-size: 16px
+	transition: all .25s ease 
+	& > div
+		display: flex
+		align-items: center
+	&:hover 
+		right: -2px
+	a 
+		color: #fff !important 
+		text-decoration: none 
+		text-align: center 
+		line-height: 41px !important 
+		vertical-align: super !important 
+.d-relative
+	position: relative
+.link-stretched
+	position: absolute
+	left: 0
+	top: 0
+	width: 100%
+	height: 100%
+	display: block
+.bi
+	font-size: 25px 
+	color: #fff 
+	padding: 4px 0 3px
+	width: 40px 
+	margin-left: 8px 
+
+.fl-fl.float-op
+	right: -188px 
+	&:hover 
+		right: -188px 
+
+.float-01
+	top: 105px
+.float-02
+	top: 160px 
+.float-03
+	top: 215px 
+.float-04 
+	top: 270px 
+.float-05
+	top: 325px 
+.float-06
+	top: 380px 
+.float-07
+	top: 435px 
+
+/* MD */
+@media (max-width: 999px) 
+	.float-sm
+		.fl-fl
+			right: -190px
+			&.float-op
+				right: -148px 
+				&:hover 
+					right: -148px 
+	.float-sm.active
+		.fl-fl
+			right: -148px
+			&.float-op
+				right: -148px 
+				&:hover 
+					right: -148px 
+				.bi-plus
+					display: none
+				.bi-x-lg
+
+
+/* FLOAT: end */
+

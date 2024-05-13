@@ -1,3 +1,4 @@
+/* HEADER */
 
 header
 	height: 340px
@@ -18,4 +19,41 @@ header
 			text-decoration: none
 			&:hover
 				color: #FDAE00
-		
+
+#offcanvasnav
+	background-color: $c2
+	font-family: $f1
+	color: $c1
+	max-width: 320px
+	.btn-close
+		background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e")
+		&:hover
+			color: $c1
+	.nav-item
+		font-family: $f1
+		color: #fff
+		&:hover
+			color: $c1
+			
+
+/* // LG */
+@media (max-width: 1199px)
+	header
+		.main_menu
+			margin-bottom: -10px
+			a
+				font-size: 18px
+				padding-left: 10px
+				padding-right: 10px
+
+/* // MD */
+@media (max-width: 991px) 
+	header
+		height: 260px
+		.main_menu
+			display: none
+		//
+
+
+
+/* /HEADER */
