@@ -259,6 +259,45 @@ header .main_menu a:hover {
 /* // SM */
 /* // XS */
 /* about: end */
+/* ARTISTS */
+#artists {
+  background: transparent url("../img/benefits_bg.jpg") repeat-y scroll center center/contain;
+}
+
+/* ARTISTS ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* ARTISTS: end */
+/* EVENTS */
+#events {
+  background: transparent url("../img/clients_bg.jpg") no-repeat scroll center center/cover;
+}
+
+/* EVENTS ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* EVENTS: end */
+/* MAP */
+#map {
+  background: transparent url("../img/about_bg.jpg") no-repeat scroll center center/cover;
+}
+
+/* MAP ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* MAP: end */
 /* benefits */
 #benefits {
   background: transparent url("../img/benefits_bg.jpg") repeat-y scroll center center/contain;
@@ -389,7 +428,7 @@ footer #footer_copyright {
   width: 190px;
   position: fixed;
   right: -140px;
-  z-index: 1000;
+  z-index: 99999;
   font-family: "Montserrat Subrayada", sans-serif;
   font-size: 16px;
   transition: all 0.25s ease;
@@ -431,10 +470,18 @@ footer #footer_copyright {
 }
 
 .fl-fl.float-op {
+  font-family: serif;
   right: -188px;
 }
 .fl-fl.float-op:hover {
   right: -188px;
+}
+.fl-fl.float-op .fl-text {
+  display: none;
+}
+
+.float-op {
+  top: 52px;
 }
 
 .float-01 {
