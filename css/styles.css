@@ -491,35 +491,35 @@ footer #footer_copyright {
 }
 
 .float-op {
-  top: 52px;
+  top: 102px;
 }
 
 .float-01 {
-  top: 105px;
+  top: 155px;
 }
 
 .float-02 {
-  top: 160px;
+  top: 210px;
 }
 
 .float-03 {
-  top: 215px;
+  top: 265px;
 }
 
 .float-04 {
-  top: 270px;
+  top: 320px;
 }
 
 .float-05 {
-  top: 325px;
+  top: 375px;
 }
 
 .float-06 {
-  top: 380px;
+  top: 430px;
 }
 
 .float-07 {
-  top: 435px;
+  top: 485px;
 }
 
 /* MD */
@@ -528,19 +528,19 @@ footer #footer_copyright {
     right: -190px;
   }
   .float-sm .fl-fl.float-op {
-    right: -148px;
+    right: -143px;
   }
   .float-sm .fl-fl.float-op:hover {
-    right: -148px;
+    right: -143px;
   }
   .float-sm.active .fl-fl {
-    right: -148px;
+    right: -143px;
   }
   .float-sm.active .fl-fl.float-op {
-    right: -148px;
+    right: -143px;
   }
   .float-sm.active .fl-fl.float-op:hover {
-    right: -148px;
+    right: -143px;
   }
   .float-sm.active .fl-fl.float-op .bi-plus {
     display: none;
